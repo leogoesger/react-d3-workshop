@@ -7,12 +7,7 @@
     "module": "esnext",
     "target": "es5",
     "jsx": "preserve",
-    "lib": [
-      "es5",
-      "es6",
-      "dom",
-      "esnext"
-    ],
+    "lib": ["es5", "es6", "dom", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -24,12 +19,7 @@
     "noEmit": true,
     "isolatedModules": true
   },
-  "include": [
-    "./src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts",
-    "testHelpers.ts"
-  ]
+  "include": ["./src/**/*"],
+  "typeRoots": ["../node_modules/@types"],
+  "exclude": ["node_modules", "**/*.spec.ts", "testHelpers.ts"]
 }

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { LinePlot } from './d3/LinePlot';
+
 export const App = () => {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ export const App = () => {
         >
           Learn React
         </a>
+        <LinePlot />
       </header>
     </div>
   );
