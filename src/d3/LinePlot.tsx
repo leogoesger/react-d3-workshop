@@ -19,6 +19,7 @@ export const LinePlot = () => {
 
   useEffect(() => {
     const { xExtend, yExtend } = getDomains(data);
+    yExtend[1] = yExtend[1] + 20;
     yScale.domain(yExtend);
 
     setLine(() =>

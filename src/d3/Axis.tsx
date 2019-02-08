@@ -26,7 +26,7 @@ export class Axis extends Component<IProps> {
       <g
         className="axis"
         ref="axis"
-        transform={`translate(0, ${this.props.height + 10})`}
+        transform={`translate(0, ${this.props.height + 20})`}
       />
     );
   }
